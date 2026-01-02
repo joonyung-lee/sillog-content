@@ -1,89 +1,89 @@
-- id: trading_agent
-  title: build quant trading agent
+- id: study_reinforcement_learning
+  title: study reinforcement learning
   children:
-    - id: study_reinforcement_learning
-      title: study reinforcement learning
+    - id: cs_285
+      title: CS 285
+      link: https://rail.eecs.berkeley.edu/deeprlcourse-fa23/
+      status: IN_PROGRESS
       children:
-        - id: cs_285
-          title: CS 285
-          link: https://rail.eecs.berkeley.edu/deeprlcourse-fa23/
-          status: IN_PROGRESS
-          children:
-            - id: cs_285_lecture_1
-              title: Lecture 1
-              status: COMPLETED
-            - id: cs_285_lecture_2
-              title: Lecture 2
-              status: COMPLETED
-            - id: cs_285_lecture_4
-              title: Lecture 4
-              status: COMPLETED
-            - id: cs_285_lecture_5
-              title: Lecture 5
-              status: PENDING
-            - id: cs_285_lecture_6
-              title: Lecture 6
-              status: PENDING
-            - id: cs_285_lecture_7
-              title: Lecture 7
-              status: PENDING
-            - id: cs_285_lecture_8
-              title: Lecture 8
-              status: PENDING
-            - id: cs_285_lecture_9
-              title: Lecture 9
-              status: PENDING
-            - id: cs_285_lecture_10
-              title: Lecture 10
-              status: PENDING
-            - id: cs_285_lecture_11
-              title: Lecture 11
-              status: PENDING
-            - id: cs_285_lecture_12
-              title: Lecture 12
-              status: PENDING
-            - id: cs_285_lecture_13
-              title: Lecture 13
-              status: PENDING
-            - id: cs_285_lecture_14
-              title: Lecture 14
-              status: PENDING
-            - id: cs_285_lecture_15
-              title: Lecture 15
-              status: PENDING
-            - id: cs_285_lecture_16
-              title: Lecture 16
-              status: PENDING
-            - id: cs_285_lecture_17
-              title: Lecture 17
-              status: PENDING
-            - id: cs_285_lecture_18
-              title: Lecture 18
-              status: PENDING
-            - id: cs_285_lecture_19
-              title: Lecture 19
-              status: PENDING
-            - id: cs_285_lecture_20
-              title: Lecture 20
-              status: PENDING
-            - id: cs_285_lecture_21
-              title: Lecture 21
-              status: PENDING
-            - id: cs_285_lecture_22
-              title: Lecture 22
-              status: PENDING
-            - id: cs_285_lecture_23
-              title: Lecture 23
-              status: PENDING
-
-- id: side_projects
-  title: side projects
-  children:
-    - id: sillog
-      link: https://github.com/joonyung-lee/sillog
-      title: build personal blog
-      children:
-        - id: sillog_document
-          title: write blog why and how I built this blog
+        - id: cs_285_lecture_1
+          title: Lecture 1
+          status: COMPLETED
+        - id: cs_285_lecture_2
+          title: Lecture 2
+          status: COMPLETED
+        - id: cs_285_lecture_4
+          title: Lecture 4
+          status: COMPLETED
+        - id: cs_285_lecture_5
+          title: Lecture 5
+          status: PENDING
+        - id: cs_285_lecture_6
+          title: Lecture 6
+          status: PENDING
+        - id: cs_285_lecture_7
+          title: Lecture 7
+          status: PENDING
+        - id: cs_285_lecture_8
+          title: Lecture 8
+          status: PENDING
+        - id: cs_285_lecture_9
+          title: Lecture 9
+          status: PENDING
+        - id: cs_285_lecture_10
+          title: Lecture 10
+          status: PENDING
+        - id: cs_285_lecture_11
+          title: Lecture 11
+          status: PENDING
+        - id: cs_285_lecture_12
+          title: Lecture 12
+          status: PENDING
+        - id: cs_285_lecture_13
+          title: Lecture 13
+          status: PENDING
+        - id: cs_285_lecture_14
+          title: Lecture 14
+          status: PENDING
+        - id: cs_285_lecture_15
+          title: Lecture 15
+          status: PENDING
+        - id: cs_285_lecture_16
+          title: Lecture 16
+          status: PENDING
+        - id: cs_285_lecture_17
+          title: Lecture 17
+          status: PENDING
+        - id: cs_285_lecture_18
+          title: Lecture 18
+          status: PENDING
+        - id: cs_285_lecture_19
+          title: Lecture 19
+          status: PENDING
+        - id: cs_285_lecture_20
+          title: Lecture 20
+          status: PENDING
+        - id: cs_285_lecture_21
+          title: Lecture 21
+          status: PENDING
+        - id: cs_285_lecture_22
+          title: Lecture 22
+          status: PENDING
+        - id: cs_285_lecture_23
+          title: Lecture 23
           status: PENDING
 
+- id: sillog
+  link: https://github.com/joonyung-lee/sillog
+  title: build personal blog
+  children:
+    - id: sillog_document
+      title: document why and how I built this blog
+      status: PENDING
+
+- id: infinite_buy
+  title: backtest cost averaging strategy
+  link: https://github.com/joonyung-lee/infinite_buy
+  children:
+    - id: infinite_buy_document
+      title: document backtest method and result
