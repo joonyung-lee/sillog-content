@@ -95,6 +95,7 @@
         title: read bitcoin whitepaper
         link: https://bitcoin.org/bitcoin.pdf
         status: COMPLETED
-      - title: read ethereum whitepaper
+      - id: read_ethereum_whitepaper
+        title: read ethereum whitepaper
         link: https://ethereum.org/whitepaper/
         status: IN_PROGRESS
