@@ -87,3 +87,14 @@
   children:
     - id: infinite_buy_document
       title: document backtest method and result
+
+- id: study_crypto
+  title: study cryptocurrency
+  children:
+      - id: read_bitcoin_whitepaper
+        title: read bitcoin whitepaper
+        link: https://bitcoin.org/bitcoin.pdf
+        status: COMPLETED
+      - title: read ethereum whitepaper
+        link: https://ethereum.org/whitepaper/
+        status: IN_PROGRESS
