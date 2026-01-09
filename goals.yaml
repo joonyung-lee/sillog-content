@@ -20,11 +20,13 @@
           status: COMPLETED
           completedAt: 2026-01-09
         - id: cs_285_lecture_6
-          title: Lecture 6
-          status: PENDING
+          title: 'Lecture 6: Actor-Critic Algorithms'
+          status: COMPLETED
+          completedAt: 2026-01-09
         - id: cs_285_lecture_7
-          title: Lecture 7
-          status: PENDING
+          title: 'Lecture 7: Value Function Methods'
+          status: COMPLETED
+          completedAt: 2026-01-09
         - id: cs_285_lecture_8
           title: Lecture 8
           status: PENDING
