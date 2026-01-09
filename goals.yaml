@@ -7,17 +7,18 @@
       status: IN_PROGRESS
       children:
         - id: cs_285_lecture_1
-          title: Lecture 1
+          title: 'Lecture 1: Introduction and Course Overview'
           status: COMPLETED
         - id: cs_285_lecture_2
-          title: Lecture 2
+          title: 'Lecture 2: Supervised Learning of Behaviors'
           status: COMPLETED
         - id: cs_285_lecture_4
-          title: Lecture 4
+          title: 'Lecture 4: Introduction to Reinforcement Learning'
           status: COMPLETED
         - id: cs_285_lecture_5
-          title: Lecture 5
-          status: PENDING
+          title: 'Lecture 5: Policy Gradients'
+          status: COMPLETED
+          completedAt: 2026-01-09
         - id: cs_285_lecture_6
           title: Lecture 6
           status: PENDING
@@ -98,4 +99,5 @@
       - id: read_ethereum_whitepaper
         title: read ethereum whitepaper
         link: https://ethereum.org/whitepaper/
-        status: IN_PROGRESS
+        status: COMPLETED
+        completedAt: 2026-01-08
